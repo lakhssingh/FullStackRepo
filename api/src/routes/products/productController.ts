@@ -7,6 +7,7 @@ export function getproductById(req: Request, res: Response) {
   res.send(`getproductbyid`);
 }
 export function createProduct(req: Request, res: Response) {
+  console.log(req.body);
   res.send(`createproduct`);
 }
 export function updateProduct(req: Request, res: Response) {
