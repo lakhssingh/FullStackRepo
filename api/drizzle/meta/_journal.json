@@ -8,6 +8,13 @@
       "when": 1728930607085,
       "tag": "0000_known_excalibur",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1729083425452,
+      "tag": "0001_amused_scalphunter",
+      "breakpoints": true
     }
   ]
 }
