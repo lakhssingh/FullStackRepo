@@ -5,15 +5,15 @@ import {
   deleteProduct,
   createProduct,
   updateProduct,
-} from "./productController";
+} from "./productController.js";
 
-import { validateData } from "../../middlewares/validationMiddleware";
+import { validateData } from "../../middlewares/validationMiddleware.js";
 
 import {
   createProductSchema,
   updateProductSchema,
-} from "../../db/productsSchema";
-import { verifyToken, verifySeller } from "../../middlewares/authMiddleware";
+} from "../../db/productsSchema.js";
+import { verifyToken, verifySeller } from "../../middlewares/authMiddleware.js";
 
 const router = Router();
 
